@@ -29,7 +29,7 @@ Note that nothing made here has to stay!
 
 ### Sign Up
 * Name, Email, Password required to create an account. 
-* *Name field is currently not utilized.*
+* *`Name` field is currently not utilized.*
 * Errors and requirements displayed above `Sign Up` button.
 
 ### Home

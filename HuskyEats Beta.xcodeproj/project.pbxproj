@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD4FFEE8204D73CD009A39E6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4FFEE7204D73CD009A39E6 /* SignUpViewController.swift */; };
+		AD89CB7E204B88D600897B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89CB7D204B88D600897B10 /* AppDelegate.swift */; };
+		AD89CB83204B88D600897B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD89CB81204B88D600897B10 /* Main.storyboard */; };
+		AD89CB85204B88D600897B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD89CB84204B88D600897B10 /* Assets.xcassets */; };
+		AD89CB88204B88D600897B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD89CB86204B88D600897B10 /* LaunchScreen.storyboard */; };
+		AD89CB93204B88D600897B10 /* HuskyEats_BetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89CB92204B88D600897B10 /* HuskyEats_BetaTests.swift */; };
+		AD89CB9E204B88D600897B10 /* HuskyEats_BetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89CB9D204B88D600897B10 /* HuskyEats_BetaUITests.swift */; };
+		AD89CBAC204B8D7400897B10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD89CBAB204B8D7300897B10 /* GoogleService-Info.plist */; };
+		ADCDD451204D801600B58F47 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCDD450204D801600B58F47 /* SignInViewController.swift */; };
+		ADCDD454204D835C00B58F47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCDD453204D835C00B58F47 /* HomeViewController.swift */; };
+		DDF878DBC0396BF194E26543 /* Pods_HuskyEats_Beta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D3C7207E96AF2CE6A4D8B7 /* Pods_HuskyEats_Beta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD89CB8F204B88D600897B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD89CB72204B88D600897B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD89CB79204B88D600897B10;
+			remoteInfo = "HuskyEats Beta";
+		};
+		AD89CB9A204B88D600897B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD89CB72204B88D600897B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD89CB79204B88D600897B10;
+			remoteInfo = "HuskyEats Beta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D071D64B31C976104075A0C /* Pods-HuskyEats Beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskyEats Beta.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuskyEats Beta/Pods-HuskyEats Beta.release.xcconfig"; sourceTree = "<group>"; };
+		5EB954A83658B94B284A24E4 /* Pods_HuskyEats_BetaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuskyEats_BetaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		821082A9C17ADAD554895358 /* Pods_HuskyEats_BetaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuskyEats_BetaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4FFEE7204D73CD009A39E6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AD89CB7A204B88D600897B10 /* HuskyEats Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HuskyEats Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD89CB7D204B88D600897B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD89CB82204B88D600897B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD89CB84204B88D600897B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD89CB87204B88D600897B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD89CB89204B88D600897B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD89CB8E204B88D600897B10 /* HuskyEats BetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HuskyEats BetaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD89CB92204B88D600897B10 /* HuskyEats_BetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskyEats_BetaTests.swift; sourceTree = "<group>"; };
+		AD89CB94204B88D600897B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD89CB99204B88D600897B10 /* HuskyEats BetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HuskyEats BetaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD89CB9D204B88D600897B10 /* HuskyEats_BetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuskyEats_BetaUITests.swift; sourceTree = "<group>"; };
+		AD89CB9F204B88D600897B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD89CBAB204B8D7300897B10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADCDD450204D801600B58F47 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ADCDD453204D835C00B58F47 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E6D3C7207E96AF2CE6A4D8B7 /* Pods_HuskyEats_Beta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuskyEats_Beta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7335A34F384E7950E7C1E9 /* Pods-HuskyEats Beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuskyEats Beta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuskyEats Beta/Pods-HuskyEats Beta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD89CB77204B88D600897B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF878DBC0396BF194E26543 /* Pods_HuskyEats_Beta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD89CB8B204B88D600897B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD89CB96204B88D600897B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9182B203BF95269795BF7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3C7207E96AF2CE6A4D8B7 /* Pods_HuskyEats_Beta.framework */,
+				821082A9C17ADAD554895358 /* Pods_HuskyEats_BetaTests.framework */,
+				5EB954A83658B94B284A24E4 /* Pods_HuskyEats_BetaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FD0BB4A6CCD6C4477E4F8FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7335A34F384E7950E7C1E9 /* Pods-HuskyEats Beta.debug.xcconfig */,
+				0D071D64B31C976104075A0C /* Pods-HuskyEats Beta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD4FFEE6204D739E009A39E6 /* SignUpView */ = {
+			isa = PBXGroup;
+			children = (
+				AD4FFEE7204D73CD009A39E6 /* SignUpViewController.swift */,
+			);
+			path = SignUpView;
+			sourceTree = "<group>";
+		};
+		AD89CB71204B88D600897B10 = {
+			isa = PBXGroup;
+			children = (
+				AD89CB7C204B88D600897B10 /* HuskyEats Beta */,
+				AD89CB91204B88D600897B10 /* HuskyEats BetaTests */,
+				AD89CB9C204B88D600897B10 /* HuskyEats BetaUITests */,
+				AD89CB7B204B88D600897B10 /* Products */,
+				9FD0BB4A6CCD6C4477E4F8FF /* Pods */,
+				9F9182B203BF95269795BF7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD89CB7B204B88D600897B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD89CB7A204B88D600897B10 /* HuskyEats Beta.app */,
+				AD89CB8E204B88D600897B10 /* HuskyEats BetaTests.xctest */,
+				AD89CB99204B88D600897B10 /* HuskyEats BetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD89CB7C204B88D600897B10 /* HuskyEats Beta */ = {
+			isa = PBXGroup;
+			children = (
+				ADCDD452204D834D00B58F47 /* Home */,
+				ADCDD44F204D800300B58F47 /* SignInView */,
+				AD4FFEE6204D739E009A39E6 /* SignUpView */,
+				AD89CB7D204B88D600897B10 /* AppDelegate.swift */,
+				AD89CB81204B88D600897B10 /* Main.storyboard */,
+				AD89CB84204B88D600897B10 /* Assets.xcassets */,
+				AD89CB86204B88D600897B10 /* LaunchScreen.storyboard */,
+				AD89CBAB204B8D7300897B10 /* GoogleService-Info.plist */,
+				AD89CB89204B88D600897B10 /* Info.plist */,
+			);
+			path = "HuskyEats Beta";
+			sourceTree = "<group>";
+		};
+		AD89CB91204B88D600897B10 /* HuskyEats BetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD89CB92204B88D600897B10 /* HuskyEats_BetaTests.swift */,
+				AD89CB94204B88D600897B10 /* Info.plist */,
+			);
+			path = "HuskyEats BetaTests";
+			sourceTree = "<group>";
+		};
+		AD89CB9C204B88D600897B10 /* HuskyEats BetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD89CB9D204B88D600897B10 /* HuskyEats_BetaUITests.swift */,
+				AD89CB9F204B88D600897B10 /* Info.plist */,
+			);
+			path = "HuskyEats BetaUITests";
+			sourceTree = "<group>";
+		};
+		ADCDD44F204D800300B58F47 /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				ADCDD450204D801600B58F47 /* SignInViewController.swift */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
+		ADCDD452204D834D00B58F47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADCDD453204D835C00B58F47 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD89CB79204B88D600897B10 /* HuskyEats Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD89CBA2204B88D600897B10 /* Build configuration list for PBXNativeTarget "HuskyEats Beta" */;
+			buildPhases = (
+				C796838E045A0E12009F3A91 /* [CP] Check Pods Manifest.lock */,
+				AD89CB76204B88D600897B10 /* Sources */,
+				AD89CB77204B88D600897B10 /* Frameworks */,
+				AD89CB78204B88D600897B10 /* Resources */,
+				0318842924DD992CC9A91B24 /* [CP] Embed Pods Frameworks */,
+				F6BD4608247717CF6A542A6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HuskyEats Beta";
+			productName = "HuskyEats Beta";
+			productReference = AD89CB7A204B88D600897B10 /* HuskyEats Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD89CB8D204B88D600897B10 /* HuskyEats BetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD89CBA5204B88D600897B10 /* Build configuration list for PBXNativeTarget "HuskyEats BetaTests" */;
+			buildPhases = (
+				AD89CB8A204B88D600897B10 /* Sources */,
+				AD89CB8B204B88D600897B10 /* Frameworks */,
+				AD89CB8C204B88D600897B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD89CB90204B88D600897B10 /* PBXTargetDependency */,
+			);
+			name = "HuskyEats BetaTests";
+			productName = "HuskyEats BetaTests";
+			productReference = AD89CB8E204B88D600897B10 /* HuskyEats BetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD89CB98204B88D600897B10 /* HuskyEats BetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD89CBA8204B88D600897B10 /* Build configuration list for PBXNativeTarget "HuskyEats BetaUITests" */;
+			buildPhases = (
+				AD89CB95204B88D600897B10 /* Sources */,
+				AD89CB96204B88D600897B10 /* Frameworks */,
+				AD89CB97204B88D600897B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD89CB9B204B88D600897B10 /* PBXTargetDependency */,
+			);
+			name = "HuskyEats BetaUITests";
+			productName = "HuskyEats BetaUITests";
+			productReference = AD89CB99204B88D600897B10 /* HuskyEats BetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD89CB72204B88D600897B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sean Lee";
+				TargetAttributes = {
+					AD89CB79204B88D600897B10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD89CB8D204B88D600897B10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD89CB79204B88D600897B10;
+					};
+					AD89CB98204B88D600897B10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD89CB79204B88D600897B10;
+					};
+				};
+			};
+			buildConfigurationList = AD89CB75204B88D600897B10 /* Build configuration list for PBXProject "HuskyEats Beta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD89CB71204B88D600897B10;
+			productRefGroup = AD89CB7B204B88D600897B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD89CB79204B88D600897B10 /* HuskyEats Beta */,
+				AD89CB8D204B88D600897B10 /* HuskyEats BetaTests */,
+				AD89CB98204B88D600897B10 /* HuskyEats BetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD89CB78204B88D600897B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD89CB88204B88D600897B10 /* LaunchScreen.storyboard in Resources */,
+				AD89CBAC204B8D7400897B10 /* GoogleService-Info.plist in Resources */,
+				AD89CB85204B88D600897B10 /* Assets.xcassets in Resources */,
+				AD89CB83204B88D600897B10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD89CB8C204B88D600897B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD89CB97204B88D600897B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0318842924DD992CC9A91B24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HuskyEats Beta/Pods-HuskyEats Beta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskyEats Beta/Pods-HuskyEats Beta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C796838E045A0E12009F3A91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuskyEats Beta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BD4608247717CF6A542A6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuskyEats Beta/Pods-HuskyEats Beta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD89CB76204B88D600897B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4FFEE8204D73CD009A39E6 /* SignUpViewController.swift in Sources */,
+				AD89CB7E204B88D600897B10 /* AppDelegate.swift in Sources */,
+				ADCDD451204D801600B58F47 /* SignInViewController.swift in Sources */,
+				ADCDD454204D835C00B58F47 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD89CB8A204B88D600897B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD89CB93204B88D600897B10 /* HuskyEats_BetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD89CB95204B88D600897B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD89CB9E204B88D600897B10 /* HuskyEats_BetaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD89CB90204B88D600897B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD89CB79204B88D600897B10 /* HuskyEats Beta */;
+			targetProxy = AD89CB8F204B88D600897B10 /* PBXContainerItemProxy */;
+		};
+		AD89CB9B204B88D600897B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD89CB79204B88D600897B10 /* HuskyEats Beta */;
+			targetProxy = AD89CB9A204B88D600897B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD89CB81204B88D600897B10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD89CB82204B88D600897B10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD89CB86204B88D600897B10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD89CB87204B88D600897B10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD89CBA0204B88D600897B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD89CBA1204B88D600897B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD89CBA3204B88D600897B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7335A34F384E7950E7C1E9 /* Pods-HuskyEats Beta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HuskyEats Beta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "seanlee.HuskyEats-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD89CBA4204B88D600897B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D071D64B31C976104075A0C /* Pods-HuskyEats Beta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HuskyEats Beta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "seanlee.HuskyEats-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD89CBA6204B88D600897B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HuskyEats BetaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "seanlee.HuskyEats-BetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuskyEats Beta.app/HuskyEats Beta";
+			};
+			name = Debug;
+		};
+		AD89CBA7204B88D600897B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HuskyEats BetaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "seanlee.HuskyEats-BetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuskyEats Beta.app/HuskyEats Beta";
+			};
+			name = Release;
+		};
+		AD89CBA9204B88D600897B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HuskyEats BetaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "seanlee.HuskyEats-BetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HuskyEats Beta";
+			};
+			name = Debug;
+		};
+		AD89CBAA204B88D600897B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HuskyEats BetaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "seanlee.HuskyEats-BetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HuskyEats Beta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD89CB75204B88D600897B10 /* Build configuration list for PBXProject "HuskyEats Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD89CBA0204B88D600897B10 /* Debug */,
+				AD89CBA1204B88D600897B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD89CBA2204B88D600897B10 /* Build configuration list for PBXNativeTarget "HuskyEats Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD89CBA3204B88D600897B10 /* Debug */,
+				AD89CBA4204B88D600897B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD89CBA5204B88D600897B10 /* Build configuration list for PBXNativeTarget "HuskyEats BetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD89CBA6204B88D600897B10 /* Debug */,
+				AD89CBA7204B88D600897B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD89CBA8204B88D600897B10 /* Build configuration list for PBXNativeTarget "HuskyEats BetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD89CBA9204B88D600897B10 /* Debug */,
+				AD89CBAA204B88D600897B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD89CB72204B88D600897B10 /* Project object */;
+}

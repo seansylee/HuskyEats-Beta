@@ -19,6 +19,18 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    
+    /////////////////////////////////////////////////////////////////////////
+    // This will override and skip the sign up page if the user has already
+    // Logged on.
+    //
+    //////////////////
+    override func viewDidAppear(_ animated: Bool) {
+        if Auth.auth().currentUser != nil {
+            self.toHome()
+        }
+    }
+    
     ////////////////////////////////////////////////////////////////////////
     // This will sign the user in,
     // Sign in is currently only available with basic email and password.

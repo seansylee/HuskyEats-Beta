@@ -15,7 +15,7 @@ Detailed installation instructions[Here](https://guides.cocoapods.org/using/gett
 
 Clone the repo 
 ```
-$ git clone git@github.com:seansylee/HuskyEats-Beta.git
+$ git clone git@github.com:seansylee/husky-eats-auth.git
 ```
 **note** : Be sure to open the `.xcworkspace` file *NOT* the `.xcodeproj` file as it will not contain the 
 necessary pod files.
